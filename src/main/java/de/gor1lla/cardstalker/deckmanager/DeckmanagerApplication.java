@@ -9,5 +9,4 @@ public class DeckmanagerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DeckmanagerApplication.class, args);
 	}
-
 }
