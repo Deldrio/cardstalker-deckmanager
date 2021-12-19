@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link rel="stylesheet" href="/style.css">
+		<title>
+			Deckmanager
+		</title>
+	</head>
 	<body>
-		Startsite
+		<header>
+			<h1>
+				Startsite
+			</h1>
+		</header>
+		<div>
+			DeckListe
+		</div>
+		<div>
+			<!-- th steht für das Thymeleaf was der kommt dependency -->
+			<a th:href="@{/decks}">Decks bearbeiten</a>
+		</div>
 	</body>
+	<footer>
+		<p>
+			erstellt von Pat & Levy
+		</p>
+	</footer>
 </html>
